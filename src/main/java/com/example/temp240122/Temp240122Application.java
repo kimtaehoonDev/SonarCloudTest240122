@@ -7,7 +7,6 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class Temp240122Application {
 
     public static void main(String[] args) {
-        System.out.println("Hello world 소나큐브 테스트 커버리지 변경");
         SpringApplication.run(Temp240122Application.class, args);
     }
 
