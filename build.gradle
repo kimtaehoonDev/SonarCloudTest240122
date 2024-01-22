@@ -28,3 +28,11 @@ tasks.named('test') {
     useJUnitPlatform()
 }
 
+// SonarCloud
+sonar {
+    properties {
+        property "sonar.projectKey", "kimtaehoonDev_SonarCloudTest240122"
+        property "sonar.organization", "kimtaehoondev"
+        property "sonar.host.url", "https://sonarcloud.io"
+    }
+}
